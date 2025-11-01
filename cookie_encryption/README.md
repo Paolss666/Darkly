@@ -84,23 +84,8 @@ if session.get('user_role') == 'admin':
 
 
 
-## 📚 Learning Resources
+# Learning Resources
 
 - [OWASP - Broken Authentication](https://owasp.org/Top10/A07_2021-Identification_and_Authentication_Failures/)
 - [OWASP - Cookie Security](https://owasp.org/www-community/controls/SecureCookieAttribute)
 - [Why MD5 is broken](https://www.kb.cert.org/vuls/id/836068)
-
-## ⚠️ Disclaimer
-
-This repository is for **educational purposes only** as part of a university web security course. Only test on authorized systems within controlled lab environments.
-
-## 📝 Lab Information
-
-- **Course**: Web Security
-- **Exercise**: Cookie-Based Authentication Bypass
-- **Difficulty**: Beginner
-- **Target**: http://localhost:8080
-
----
-
-**Flag**: `df2eb4ba34ed059a1e3e89ff4dfc13445f104a1a52295214def1c4fb1693a5c3`
