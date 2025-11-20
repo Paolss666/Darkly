@@ -1,7 +1,7 @@
 # Exploit
 
 A vulnerability exists on the following page:
-
+http://localhost:8080/index.php?page=survey
 
 On this page, users are allowed to assign a grade to each user, with a value expected to be between **1 and 10**.  
 However, the grade value can be **manually modified using browser inspection tools**, allowing a user to submit a grade **greater than 10**, bypassing the intended client‑side restriction.
