@@ -9,7 +9,7 @@ Although the backend removes *valid, closed* HTML tags (e.g. `<h1></h1>`), it fa
 
 for example:
 ``` html
-<h1>hello
+<svg/onload=alert('XSS')>a
 ```
 
 ### PATCH
